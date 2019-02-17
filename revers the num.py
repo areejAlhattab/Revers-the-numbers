@@ -44,22 +44,12 @@ def ReversNum(num):
     summation = 0
     for index in range(len(list3)):
         summation = summation + list3[index]
-    return summation 
+    return print(summation) 
         
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+def Entery():
+    number = int(input('Enter the Number that you would like to make it reversed : '))
+    return ReversNum(number)
+        
+   
+Entery()
     
